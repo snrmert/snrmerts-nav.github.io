@@ -1,0 +1,41 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background-image: url(background.png);
+}
+.parallax img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+}
+.h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 30px;
+}
+#resim{
+  z-index: -999;
+}
+#resim1 {
+  transform: translateX(-280px);
+}
+#resim2 {
+  transform: translateX(280px);
+}
+#resim3 {
+  transform: translateX(50);
+}
+#resim4 {
+  transform: translateX(50);
+}
+.yaziorta{
+  font-size: 50px;
+}
